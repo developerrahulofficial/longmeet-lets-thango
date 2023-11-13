@@ -1,0 +1,111 @@
+#roomContainer {
+  overflow: hidden;
+  background-color: #0f1419;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#shareVideo {
+  margin: 0; 
+  background: black;
+  height: 100vh;
+  width: 85vw;
+}
+
+#videoContainer video {
+  background: #2c3e50;
+  height: 20vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.videos {
+  display: flex;
+  position: relative;
+  background-color: ;
+}
+
+.videos .action {
+  position: absolute;
+  width: 100%;
+  bottom: 9px;
+  visibility: hidden;
+}
+.videos .name {
+  position: absolute;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 20px;
+  padding: 5px;
+  font-size: small;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.videos .name > * {
+  margin-right: 3px;
+}
+.videos:hover .action {
+  visibility: visible;
+}
+
+#clipboard {
+  opacity: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+#shareContainer {
+  margin: 0;
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 85vw;
+}
+
+#videoContainer {
+  display: flex;
+  height: 80vh;
+  width: 15vw;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.standalone #videoContainer video {
+  width: 50vw;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.standalone #videoContainer {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.standalone .videos {
+  /* flex: 50%; */
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+}
+
+#standalone_share {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 75px;
+}

@@ -1,0 +1,10 @@
+#TOS {
+    text-align: justify;
+    padding: 5% 10%;
+    color: white;
+}
+
+#TOS a {
+    font-size: inherit;
+    color: palevioletred;
+}

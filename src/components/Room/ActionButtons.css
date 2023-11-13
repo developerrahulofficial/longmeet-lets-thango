@@ -1,0 +1,21 @@
+#shareContainer #actionContainer {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 75px;
+    display: none;
+}
+
+#shareContainer:hover #actionContainer {
+    display: block;
+}
+
+#fullScreenIcon {
+  float: right;
+  cursor: pointer;
+}
+
+.fullScreen #actionContainer {
+  width: 85vw !important;
+}

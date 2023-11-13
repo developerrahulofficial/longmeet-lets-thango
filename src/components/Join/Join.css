@@ -1,0 +1,55 @@
+#joinContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#joinContainer > div {
+    display: flex;
+    height: 100vh; 
+}
+
+#logoContainer img {
+    object-fit: cover;
+    width: 75vw;
+}
+
+#inputContainer {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputContainer > * {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#inputContainer label {
+    color: gray;
+}
+
+#brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: palevioletred;
+}
+
+#createCallBtn, #joinCallBtn {
+    background-color: #AF5A76;
+    font-weight: bold;
+}
+button:disabled {
+    background-color: #E5C9D2 !important;
+}
+
+.MuiInput-underline:after {
+    border-bottom: 2px solid #AF5A76 !important;
+}
+
+input, .MuiCheckbox-root  {
+    color: white !important;
+}

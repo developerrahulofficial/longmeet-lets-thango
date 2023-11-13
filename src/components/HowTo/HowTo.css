@@ -1,0 +1,8 @@
+#instructionContainer {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#instructionContainer li {
+    padding-bottom: 10px;
+}
