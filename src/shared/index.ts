@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 export const config = {
     logoCount: 5,
     firebaseConfig: {
@@ -19,7 +17,7 @@ export const config = {
         ],
         iceCandidatePoolSize: 10,
     },
-    DEV: process.env.NODE_ENV === 'development',
+    DEV: "development" === 'development',
     PROD: process.env.NODE_ENV === 'production',
     TEST: process.env.NODE_ENV === 'test'
 }
