@@ -3,13 +3,13 @@ require('dotenv').config();
 export const config = {
     logoCount: 5,
     firebaseConfig: {
-        apiKey: process.env.REACT_APP_apiKey,
-        authDomain: process.env.REACT_APP_authDomain,
-        projectId: process.env.REACT_APP_projectId,
-        storageBucket: process.env.REACT_APP_storageBucket,
-        messagingSenderId: process.env.REACT_APP_messagingSenderId,
-        appId: process.env.REACT_APP_appId,
-        measurementId: process.env.REACT_APP_measurementId
+        apiKey: "AIzaSyBDv12yuO9mC1gAaoC2-4hVc-6HpOdjtNo",
+        authDomain: "longmeet-d8fb9.firebaseapp.com",
+        projectId: "longmeet-d8fb9",
+        storageBucket: "longmeet-d8fb9.appspot.com",
+        messagingSenderId: "712828169711",
+        appId: "1:712828169711:web:8a317461412d786dfa9a1a",
+        measurementId: "G-6NSLCV7J3R"
     },
     servers: {
         iceServers: [
