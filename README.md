@@ -15,7 +15,7 @@ I'm currently in a long distance relationship myself and has been for the past t
 - Enjoy video at 60fps along with high quality audio.   
 - Live Video Chat between parties.     
 - Audio Only Chat betwen parties.       
-<img width="600" src="showcase/stream.png" />
+
 
 # To Run this Locally
 
