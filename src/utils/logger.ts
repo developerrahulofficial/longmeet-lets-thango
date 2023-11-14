@@ -1,7 +1,7 @@
 import { config } from '../shared';
 
 const logger = (msg: any) => {
-  if (config.DEV || config.TEST) {
+  if (config.DEV) {
     console.log(msg);
   }
 }

@@ -12,12 +12,12 @@ export const config = {
     servers: {
         iceServers: [
             {
-            urls: ['stun:stun1.l.google.com:19302', 'stun:stun2.l.google.com:19302'],
+            urls: ['stun:stun1.l.google.com:19302',
+                   'stun:stun2.l.google.com:19302'],
             },
         ],
         iceCandidatePoolSize: 10,
     },
     DEV: "development" === 'development',
-    PROD: process.env.NODE_ENV === 'production',
-    TEST: process.env.NODE_ENV === 'test'
 }
+
